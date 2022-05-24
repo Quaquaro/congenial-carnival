@@ -1,1 +1,15 @@
 @import "preset";
+
+.party-button {
+  background-color: $ciRed;
+  padding: 1rem 2rem 1.2rem 2rem;
+  font-size: 2rem;
+  color: $second;
+  border: none;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all ease-in-out 250ms;
+  &:hover {
+    transform: scale(1.2);
+  }
+}
